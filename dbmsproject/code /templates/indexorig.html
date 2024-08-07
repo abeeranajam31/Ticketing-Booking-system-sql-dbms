@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Event Site</title>
+    <!-- Import Google Fonts and Font Awesome for styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <style>
+        body {
+            background-image: url("C:/Users/HP/Downloads/image2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff; /* White text */
+            font-family: 'Roboto', sans-serif;
+            padding: 20px;
+            height: auto;
+            overflow-y: auto; /* Enable vertical scrolling */
+            min-height: 100vh; /* Ensure minimum height */
+        }
+
+        h1 {
+            font-family: Arial, sans-serif; /* Formal and professional font */
+            font-size: 2.5em;
+            text-shadow: 2px 2px 8px black;
+            color: white; /* White color */
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-transform: uppercase; /* Uppercase text */
+            text-align: center; /* Center align */
+        }
+
+        .content {
+            display: flex; /* Flex layout */
+            flex-direction: column; /* Vertical layout */
+            justify-content: flex-start; /* Align to the top */
+            gap: 20px; /* Space between sections */
+        }
+
+        .get-started {
+            color: white; /* White text */
+            font-size: 1.2em; /* Larger font size */
+            margin-bottom: 20px; /* Spacing after the prompt */
+        }
+
+        .actions {
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2); /* Transparent background */
+            border: 1px solid rgba(255, 255, 255, 0.5); /* Light border for the box */
+            border-radius: 10px; /* Rounded corners */
+            text-align: center; /* Centered text */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin: 10px 0; /* Spacing between list items */
+        }
+
+        ul a {
+            text-decoration: none;
+            color: #87CEEB; /* Sky blue */
+            font-weight: bold;
+            font-size: 1.5em; /* Slightly larger font size */
+            transition: color 0.3s ease-in-out;
+        }
+
+        ul a:hover {
+            color: #ff69b4; /* Change color on hover */
+        }
+
+        .social-icons {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-icons a {
+            color: white; /* White icons */
+            font-size: 1.5em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .social-icons a:hover {
+            color: #ff69b4;
+        }
+
+        .header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .header a {
+            text-decoration: none;
+            color: white; /* White text */
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        .header a:hover {
+            color: #ff69b4;
+        }
+
+        footer {
+            color: #ff1493; /* Dark pink */
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            padding-top: 30px; /* Spacing above the footer */
+        }
+    </style>
+</head>
+<body>
+    <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <div class="header">
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+        <a href="#">More</a>
+    </div>
+
+    <div class="content">
+        <h1>BOOK EVENTS MAKE LIFETIME MEMORIES</h1>
+        
+        <div class="left-content">
+            <p>Concerts and qawwali gatherings are vibrant cultural events that unite people through music and performance. Concerts offer a high-energy experience where fans connect with their favorite artists across various genres. In contrast, qawwali, rooted in Sufi tradition, delivers soulful melodies and profound poetry, creating a spiritual and contemplative atmosphere.</p>
+            <p>Raves and fashion shows represent a different kind of spectacle, focusing on energy and visual appeal. Raves pulse with electronic beats and dynamic light shows, attracting those seeking intense sensory experiences. Fashion shows, meanwhile, showcase creativity and style, as models present the latest trends on the runway. Both types of events celebrate the joy of expression and bring together diverse audiences.</p>
+        </div>
+
+        <div class="actions"> <!-- Transparent box for actions -->
+            <p class="get-started">Choose an action to get started:</p> <!-- White text -->
+            <ul>
+                <li><a href="/events">View Events</a></li>
+                <li><a href="/booking">Make a Booking</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        Concert | Qawali | Rave | Fashion Show
+    </footer>
+</body>
+</html>
